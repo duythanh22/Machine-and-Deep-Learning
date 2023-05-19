@@ -18,6 +18,7 @@
     - Lượng dữ liệu toàn cầu tăng mạnh - bùng nổ dữ liệu.
     - Công nghệ chip, công nghệ đám mây phát triển nhanh chóng, nâng cao khả năng tính toán.
   - Năm 2016, ý tưởng "Học sâu" được đề xuất.
+ 
 Tóm lại, trí tuệ nhân tạo bao gồm học máy, học máy bao gồm học sâu.
 ![image](https://github.com/duythanh22/Machine-and-Deep-Learning/assets/84120300/28324c8c-bda9-4969-a57d-db5ac33350f5)
 
