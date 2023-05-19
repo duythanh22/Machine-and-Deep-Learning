@@ -42,10 +42,10 @@ Tóm lại, trí tuệ nhân tạo bao gồm học máy, học máy bao gồm h�
     + Đặc trưng: Thông tin chứa trong tensor chính là đặc trưng, và tensor chứa đặc trưng thường được gọi là tensor đặc trưng.
     + Nhãn: Thường được tách riêng khỏi tập dữ liệu.
   - *Phân loại và hồi quy:*
-    
-   Nhãn là một khái niệm rất quan trọng trong học máy. Các nhãn khác nhau chỉ ra các vấn đề khác nhau, với hai loại phổ biến:
-    + Phân loại: Nhãn có số lượng hữu hạn và loại trừ lẫn nhau, biểu thị bằng biến rời rạc (Categorical).
-    + Hồi quy: Kết quả đầu ra của mô hình là một con số cụ thể, nhãn là một số thực, biểu thị bằng biến liên tục (Continuous).
+  
+    Nhãn là một khái niệm rất quan trọng trong học máy. Các nhãn khác nhau chỉ ra các vấn đề khác nhau, với hai loại phổ biến:
+      + Phân loại: Nhãn có số lượng hữu hạn và loại trừ lẫn nhau, biểu thị bằng biến rời rạc (Categorical).
+      + Hồi quy: Kết quả đầu ra của mô hình là một con số cụ thể, nhãn là một số thực, biểu thị bằng biến liên tục (Continuous).
     
   - *Học có giám sát và học không giám sát:*
     + Học có giám sát: Các tác vụ được gắn nhãn, học từ dữ liệu  đã biết, sau đó dự đoán những gì bạn muốn biết, chẳng hạn như: KNN, cây quyết định, máy vectơ hỗ trợ, hồi quy tuyến tính, hồi quy logistic và hầu hết các mạng nơ-ron, ...
