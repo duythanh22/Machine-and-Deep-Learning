@@ -12,6 +12,8 @@
 #### [4. Stability and optimazation of neural network training (Tối ưu hoá mạng nơ-ron)]()
 #### [5. Deep vison and convolutional neural network (Mạng no-ron sâu và mạng nơ-ron tích chập)]()
 
+## Inside Deep Learning: Math, Algorithms, Models (Bản dịch)
+
 ## Deep Learning with Tensorflow
 
 ## Machine Learning
