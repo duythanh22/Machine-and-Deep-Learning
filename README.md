@@ -2,6 +2,8 @@
 
 ## Deep Learning with Pytorch:
 
+##### [Một số khái niệm cơ bản về học sâu](Deep-Learning-Pytorch/README.md)
+
 #### [1. Deep learning with pytorch basic](https://github.com/duythanh22/Machine-and-Deep-Learning/tree/main/Deep-Learning-Pytorch/1_deep_learning_with_pytorch_basic)
 - Tìm hiểu tổng quát về pytorch
 - Các thao tác với tensor
