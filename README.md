@@ -3,6 +3,7 @@
 ## Deep Learning with Pytorch:
 
 1. Học sâu, học máy, trí tuệ nhân tạo và mạng nơ-ron
+
   Lịch sử phát triển của trí tuệ nhân tạo và các lĩnh vực liên quan:
   - Để dự đoán tương lai, cần phải có "kinh nghiệm sâu sắc" trong một lĩnh vực cụ thể.
   - Kinh nghiệm và kiến thức không thể được đạt được qua một đêm.
@@ -21,6 +22,80 @@
  
 Tóm lại, trí tuệ nhân tạo bao gồm học máy, học máy bao gồm học sâu.
 ![image](https://github.com/duythanh22/Machine-and-Deep-Learning/assets/84120300/28324c8c-bda9-4969-a57d-db5ac33350f5)
+
+2. Các ứng dụng phổ biến của trí tuệ nhân tạo, học sâu:
+  - Khôi phục màu, hình ảnh.
+  - Nhận diện đối tượng
+  - Tạo hình với trí tuệ nhân tạo
+  - Dịch máy
+  - Hiệu ứng động với trí tuệ nhân tạo
+  - Công nghệ tăng cường video bằng trí tuệ nhân tạo
+  - Công nghệ tăng cường hình ảnh bằng trí tuệ nhân tạo
+  - Mô hình ngôn ngữ
+
+3. Các khái niệm cơ bản:
+  
+  Các khái niệm trong học sâu khác biệt so với học máy truyền thống:
+  1. Mẫu, đặc trưng và nhãn (Samples, features and labels):
+    - Mẫu: Trong các phép toán với tensor nhiều chiều, thường không phân biệt "hàng" và "cột" nữa, mà xem mỗi chỉ số tương ứng là một mẫu.
+    - Đặc trưng: Thông tin chứa trong tensor chính là đặc trưng, và tensor chứa đặc trưng thường được gọi là tensor đặc trưng.
+    - Nhãn: Thường được tách riêng khỏi tập dữ liệu.
+  2. Phân loại và hồi quy:
+    
+    Nhãn là một khái niệm rất quan trọng trong học máy. Các nhãn khác nhau chỉ ra các vấn đề khác nhau, với hai loại phổ biến:
+    - Phân loại: Nhãn có số lượng hữu hạn và loại trừ lẫn nhau, biểu thị bằng biến rời rạc (Categorical).
+    - Hồi quy: Kết quả đầu ra của mô hình là một con số cụ thể, nhãn là một số thực, biểu thị bằng biến liên tục (Continuous).
+  3. Học có giám sát và học không giám sát:
+    - Học có giám sát: Các tác vụ được gắn nhãn, học từ dữ liệu  đã biết, sau đó dự đoán những gì bạn muốn biết, chẳng hạn như: KNN, cây quyết định, máy vectơ hỗ trợ, hồi quy tuyến tính, hồi quy logistic và hầu hết các mạng nơ-ron, ...
+    - Học không giám sát: các tác vụ không được gắn nhãn, thường được sử dụng làm thuật toán hỗ trợ để nâng cao hiệu quả học của các thuật toán có giám sát, bao gồm phân cụm, lọc cộng tác, ...
+    - Học bán giám sát
+    - Học tăng cường
+  4. Tiêu chí đánh giá mô hình:
+    - Hiệu quả dự đoán của mô hình: Hiệu quả dự đoán/đánh giá của mô hình là mục tiêu chính, đối với các thuật toán khác nhau, có các chỉ số đánh giá mô hình là khác nhau, chúng ta sử dụng các chỉ số đánh giá này để đo lường hiệu quả dự đoán của mô hình.
+    - Tốc độ tính toán: Có khả năng xử lý đồng thời lượng lớn dữ liệu, học nhanh chóng trong thời gian ngắn và thực hiện dự đoán thời gian thực là một ưu điểm quan trọng của học máy. Nếu tốc độ tính toán của thuật toán quá chậm, nó cũng không thuận lợi cho việc điều chỉnh và thử nghiệm, đồng thời có thể yêu cầu nhiều tài nguyên tính toán và lưu trữ hơn, tạo ra chi phí cao hơn. Trong trường hợp mô hình cho kết quả tốt, đảm bảo tốc độ tính toán nhanh là một yếu tố quan trọng trong học máy.
+    - Khả năng giải thích: Cần giải thích kết quả dự đoán của thuật toán cho mọi người, nếu không, các bên liên quan sẽ không chấp nhận. Yêu cầu về khả năng giải thích của mô hình đối với học sâu thấp hơn.
+    - Phục vụ cho doanh nghiệp: Chỉ khi phục vụ cho doanh nghiệp hoặc nghiên cứu đẩy mạnh sự nhận thức của con người, thuật toán mới có giá trị thương mại.
+
+4. Pytorch framework:
+  - Ưu điểm:
+    - Hỗ trợ tính toán nhanh cho dữ liệu lớn và mạng nơ-ron lớn.
+    - Tính linh hoạt cao, có khả năng khai thác tiềm năng của mạng nơ-ron. Kết hợp sự linh hoạt với cú pháp Python đơn giản và dễ học.
+    - Hỗ trợ chuyển đổi mượt mà giữa môi trường nghiên cứu và môi trường sản xuất với chi phí gỡ lỗi thấp.
+  - Kiến trúc:
+  
+    *Thư viện gốc Torch - Cung cấp các mô-đun để xây dựng mạng nơ-ron linh hoạt.*
+
+    - Các thành phần cơ bản trong quá trình chạy:
+      + Tensor
+      + Autograd
+    - Tiện ích xử lý trước dữ liệu:
+      + Xử lý và nhập liệu dữ liệu (data, datasets)
+      + Hiển thị trực quan bằng TensorBoard
+      + Mô hình được huấn luyện trước (model_zoo)
+    - Các yếu tố cơ bản của mạng nơ-ron:
+      + nn: Mô-đun mạng nơ-ron
+      + Các lớp đa dạng (Module)
+      + Hàm mất mát và hàm kích hoạt (functional)
+    - Thuật toán tối ưu (optim)
+    - Hiệu suất tính toán:
+      + Huấn luyện phân tán (torchelastic)
+      + Huấn luyện GPU (cuda)
+    - Triển khai môi trường sản xuất (JIT)
+
+    *Các mô-đun hỗ trợ ứng dụng cụ thể trong lĩnh vực Trí tuệ Nhân tạo đã được phát triển:*
+    - Thị giác máy tính (torchvision)
+        + Các tập dữ liệu phổ biến (datasets)
+        +  Các mô hình phổ biến (models)
+        +  Xử lý trước dữ liệu hình ảnh (transform)
+    - Xử lý ngôn ngữ tự nhiên (torchtext)
+        + Xử lý trước dữ liệu (data)
+        + Các tập dữ liệu phổ biến (datasets)
+    - Xử lý âm thanh (torchaudio)
+        + Các tập dữ liệu phổ biến (datasets)
+        + Xử lý trước dữ liệu âm thanh (transform)
+       +  Các mô hình phổ biến (models)
+        + Các hàm phổ biến (functional)
+
 
 #### [1. Deep learning with pytorch basic](https://github.com/duythanh22/Machine-and-Deep-Learning/tree/main/Deep-Learning-Pytorch/1_deep_learning_with_pytorch_basic)
 - Tìm hiểu tổng quát về pytorch
