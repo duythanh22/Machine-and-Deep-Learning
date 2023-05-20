@@ -17,3 +17,4 @@
 ## Deep Learning with Tensorflow
 
 ## Machine Learning
+### [Mini-project](Machine-Learning/ML-mini-projects)
