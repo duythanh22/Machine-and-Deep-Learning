@@ -4,6 +4,7 @@
 **1. Học sâu, học máy, trí tuệ nhân tạo và mạng nơ-ron**
 
 Lịch sử phát triển của trí tuệ nhân tạo và các lĩnh vực liên quan:
+![image](https://github.com/duythanh22/Machine-and-Deep-Learning/assets/84120300/9de71ed4-7dc4-4b43-8de0-c0b294bd7658)
 - Để dự đoán tương lai, cần phải có "kinh nghiệm sâu sắc" trong một lĩnh vực cụ thể.
 - Kinh nghiệm và kiến thức không thể được đạt được qua một đêm.
 - Dựa vào các phép tính xác suất, phù hợp với mô hình (pattern fit), các nhà toán học đã tạo ra nhiều mô hình toán học (hồi quy tuyến tính, mô hình Bayes, v.v.), các mô hình này có thể học được một số quy luật từ dữ liệu lịch sử và dựa vào những quy luật này để dự đoán.
