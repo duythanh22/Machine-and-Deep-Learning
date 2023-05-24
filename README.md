@@ -15,6 +15,18 @@
 ## Inside Deep Learning: Math, Algorithms, Models (Bản dịch)
 
 ## Deep Learning with Tensorflow
-
+#### [1. Introduction to Deep Learning]()
+#### [2. Deep Neural Network]()
+#### [3. Keras Exercises ]()
+#### [ ]()
+#### [ ]()
+#### [ ]()
+#### [ ]()
+#### [ ]()
+#### [ ]()
+#### [ ]()
+#### [ ]()
+#### [ ]()
+#### [ ]()
 ## Machine Learning
 ### [Mini-project](Machine-Learning/ML-mini-projects)
