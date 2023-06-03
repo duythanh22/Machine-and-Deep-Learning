@@ -4,7 +4,9 @@
 
 **Tìm hiểu về các thư viện cơ bản phục vụ cho khoa học dữ liệu trong Python:**
 [1. Python basic]()
+
 [2. Numpy]()
+
 [3. Pandas]()
 
 
