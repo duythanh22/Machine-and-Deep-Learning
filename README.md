@@ -5,6 +5,7 @@
 **Tìm hiểu về các thư viện cơ bản phục vụ cho khoa học dữ liệu trong Python:**
 
 [1. Python basic](Python-DS/1-Python_Basics.ipynb)
+- Tìm hiểu và cú pháp, các kiểu dữ liệu, vòng lặp, hàm, ...
 
 [2. Numpy]()
 
